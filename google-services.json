@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828720049954",
+    "project_id": "result-app-aac72",
+    "storage_bucket": "result-app-aac72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828720049954:android:df2627cfca505f6d163f7b",
+        "android_client_info": {
+          "package_name": "com.techeasylife.resultbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828720049954-5iiccae3qkd8mcf02gtu4nlif0flk5i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcWevKHgcQKDo3OnfDZ5t5hOpw-ivu-KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828720049954-5iiccae3qkd8mcf02gtu4nlif0flk5i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

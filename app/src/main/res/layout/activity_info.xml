@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যেভাবে রেজাল্ট বের করবেন"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#007705"
+                android:textStyle="bold"
+                android:background="@drawable/bottom_shade_custom"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="প্রথমে আপনাকে রেজাল্ট এর টাইপ সিলেক্ট করতে হবে অর্থাৎ আপনি কি রেজাল্ট দেখতে চাচ্ছেন"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:background="@drawable/redas"
+                android:textSize="15sp"
+                android:padding="8dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:src="@drawable/info1"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এরপর আপনাকে বছর সিলেক্ট করতে হবে আপনি যে বছরের রেজাল্ট বের করতে চাচ্ছেন"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/redas"
+                android:padding="8dp"
+                >
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:src="@drawable/info2"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এরপর আপনাকে Result Type সিলেক্ট করতে হবে আপনি যদি জেনারেল ভাবে পরীক্ষা দিয়ে থাকেন তাহলে আমি রিকমেন্ড করব Individual Result এটা সিলেক্ট করবেন"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:background="@drawable/redas"
+                android:textSize="15sp"
+                android:padding="8dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:src="@drawable/info3"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এরপর আপনাকে সবকিছু ঠিকঠাক বসিয়ে Roll এবং Registration (Optional) দেওয়ার পর সিকিউরিটি কি এটি সাবমিট করার পর আপনাকে Get Result এখানে ক্লিক করতে হবে তারপর আপনি রেজাল্ট পেয়ে যাবেন"
+
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:background="@drawable/redas"
+                android:textSize="15sp"
+                android:padding="8dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:src="@drawable/info4"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আশা করি সবার আগে রেজাল্ট পেয়ে যাবেন"
+                android:gravity="center"
+                android:background="@drawable/redas"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:padding="8dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:src="@drawable/info5"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
